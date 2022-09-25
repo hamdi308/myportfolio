@@ -1,0 +1,48 @@
+.home-page{
+    .text-zone{
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+    }
+    h1 {
+        color:#fff;
+        font-size: 53px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+        @media only screen and (max-width: 767px) {
+            font-size: 30px;
+            font-weight: 200;
+            margin-left: 30px;
+        }
+        
+       .myname{
+        font-family: 'La Belle Aurore';
+       }
+    }
+    .flat-button{
+        color: #38BFEA;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 400;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid #38BFEA;
+        margin-top: 25px;
+        float:left;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+        &:hover{
+            background: #38BFEA;
+            color: #fff;
+        }
+                @media only screen and (max-width: 767px) {
+                        font-size: 30px;
+                        font-weight: 200;
+                    }
+    }
+}
