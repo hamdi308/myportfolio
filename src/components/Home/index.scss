@@ -13,7 +13,7 @@
         margin: 0;
         font-family: 'Coolvetica';
         font-weight: 400;
-        @media only screen and (max-width: 767px) {
+        @media only screen and (max-width: 667px) {
             font-size: 30px;
             font-weight: 200;
             margin-left: 30px;
@@ -25,8 +25,11 @@
     }
     .flat-button{
         color: #38BFEA;
-        font-size: 13px;
+        font-size: 18px;
+        height: 40px;
+        width: 120px;
         font-weight: 600;
+        justify-content: center;
         letter-spacing: 400;
         font-family: sans-serif;
         text-decoration: none;
@@ -40,7 +43,7 @@
             background: #38BFEA;
             color: #fff;
         }
-                @media only screen and (max-width: 767px) {
+                @media only screen and (max-width: 667px) {
                         font-size: 30px;
                         font-weight: 200;
                     }

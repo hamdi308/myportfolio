@@ -1,0 +1,44 @@
+.myImage-container{
+    position: absolute;
+    top: 90px;
+    right: 50px;
+    margin: auto;
+    padding: 15px 15px 0;
+    justify-content: center;
+
+}
+.solid-img{
+    width: 350px;
+    height: 400px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: #38BFEA;
+    border-style: inset;
+    margin-left: 150px;
+}
+.summary{
+    color: #38BFEA;
+    font-size:medium;
+    font-weight: 600;
+    letter-spacing: 400;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #38BFEA;
+    height: auto;
+    width: 800px;
+    margin-top: 50px;
+    animation: fadeIn 1s 1.8s backwards;
+    border-radius: 8%;
+    &:hover {
+                background: #38BFEA;
+                color: #fff;
+            }
+    .subtitle{
+        padding: 10px;
+        font-size: large;
+    }
+    hr{
+        width: 40%;
+    }
+}
